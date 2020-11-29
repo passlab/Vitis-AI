@@ -1,6 +1,8 @@
+### Quantize Model
 
 ```
 (vitis-ai-tensorflow) yyan7@cci-carina:/workspace/alveo/examples/tensorflow$ python run.py --quantize --model models/inception_v1_baseline.pb --pre_process inception_v1 --output_dir work --input_nodes data --output_nodes loss3_loss3 --input_shapes 1,224,224,3 --batch_size 16
+
 WARNING:tensorflow:From /opt/vitis_ai/conda/envs/vitis-ai-tensorflow/lib/python3.6/site-packages/vai/dpuv1/rt/xdnn_util_tf.py:36: The name tf.GraphDef is deprecated. Please use tf.compat.v1.GraphDef instead.
 
 WARNING:tensorflow:From /opt/vitis_ai/conda/envs/vitis-ai-tensorflow/lib/python3.6/site-packages/vai/dpuv1/rt/xdnn_rt_tf.py:41: The name tf.NodeDef is deprecated. Please use tf.compat.v1.NodeDef instead.
