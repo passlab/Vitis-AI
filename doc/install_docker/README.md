@@ -1,7 +1,7 @@
 # Installing Docker
 Please refer to official Docker Documentation
 
-- https://docs.docker.com/engine/install/
+- https://docs.docker.com/engine/install/. On Ubuntu, follow the instruction to install docker https://docs.docker.com/engine/install/ubuntu/
 
 # Installing NVIDIA Docker Runtime
 (Only applicable for model training or model quantization use cases)  
