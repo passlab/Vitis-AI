@@ -1,15 +1,15 @@
 # Installing Docker
-Please refer to official Docker Documentation
-
-- https://docs.docker.com/engine/install/. On Ubuntu, follow the instruction to install docker https://docs.docker.com/engine/install/ubuntu/
+Please refer to [official Docker Documentation](https://docs.docker.com/engine/install)
+1. On Ubuntu, follow the instruction to install docker https://docs.docker.com/engine/install/ubuntu/
 
 # Installing NVIDIA Docker Runtime
 (Only applicable for model training or model quantization use cases)  
 If you are building the Vitis AI Docker Image with GPU acceleration
 You will need to install NVIDIA Container Runtime
 Please refer to the offical NVIDIA Documentation
+1. Follow steps in https://nvidia.github.io/nvidia-container-runtime/ to setup NVIDIA Container Runtime repo
+1. Follow the installation from https://github.com/NVIDIA/nvidia-container-runtime to install and registert the NVIDIA Container runtime. We used "Daemon configuration file" to register the runtime. 
 
-- https://nvidia.github.io/nvidia-container-runtime/
 
 
 # Slow Connection To Ubuntu Servers Outside China
